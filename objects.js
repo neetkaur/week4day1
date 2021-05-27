@@ -68,3 +68,18 @@ class Person{
     this.bankAccount=this.bankAccount-hamObj.getPrice()
   }
 }
+
+const timmy = new Person('Timmy')
+timmy.age = 5
+for(let i=0;i<5;i++){
+  timmy.eat()
+  timmy.exercise()}
+timmy.age = 9
+
+const gus = new Hamster('Gus')
+gus.owner ='Timmy'
+timmy.buyHamster(gus)
+
+for(let i=0;i<2;i++){
+  timmy.eat()
+  timmy.exercise()}
